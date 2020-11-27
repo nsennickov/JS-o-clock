@@ -30,6 +30,6 @@ function calculate(elem) {
     if (String(elem).length > 1) {
         return elem
     }
-    return "0" + elem
+    return `0${elem}`
 }
 window.onload = getDate();
